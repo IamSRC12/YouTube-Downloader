@@ -1,58 +1,59 @@
-# YouTube Downloader — Fast Desktop App
+# YouTube-Downloader
 
-> Clean Electron desktop app to download YouTube videos & audio in your preferred quality. One-click launch via `START.bat`.
-
-<p>
-  <img src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white" />
-  <img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=flat-square&logo=windows&logoColor=white" />
-  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" />
+<p align="center">
+  <img alt="Electron" src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white" />
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
+  <img alt="yt-dlp" src="https://img.shields.io/badge/yt--dlp-FF0000?style=flat-square&logo=youtube&logoColor=white" />
 </p>
+
+<p align="center"><b>Fast, clean downloads in the quality you want.</b></p>
+
+<p align="center">
+  <a href="#-getting-started">🚀 Getting Started</a> · <a href="#-project-structure">📁 Structure</a> · <a href="#-license">📄 License</a>
+</p>
+
+---
+
+## Overview
+
+High-speed desktop downloader supporting 4K, playlists, subtitles and metadata embedding.
 
 ## ✨ Features
 
-- Download video & audio (multiple qualities/formats)
-- Queue & progress tracking
-- Desktop-native experience (Electron) with auto-install via `START.bat`
-- Saves to `downloads/` folder
+- Video and audio downloads up to 4K
+- Playlist support
+- Subtitle and metadata embedding
+- Desktop-native with one-click launch
 
-## 🚀 Quick Start
+## 🛠️ Tech Stack
+
+<p align="center">
+  <img alt="Electron" src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white" />
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
+  <img alt="yt-dlp" src="https://img.shields.io/badge/yt--dlp-FF0000?style=flat-square&logo=youtube&logoColor=white" />
+</p>
+
+## 🚀 Getting Started
 
 ```bash
-# Option 1 — Double-click
-START.bat
-
-# Option 2 — Manual
-npm install
-npm start
+# See the project files for run instructions.
 ```
-
-> `START.bat` auto-detects built binaries in `dist-electron/` or `release/`, otherwise installs deps and starts the app.
-
-**Requirements:** Node.js 18+, Windows 10/11.
 
 ## 📁 Project Structure
 
 ```
 YouTube-Downloader/
-├── START.bat          # Smart launcher
-├── downloads/         # Output folder (git-ignored)
-└── dist-electron/     # Built binaries (when packaged)
+├── downloads/
+├── .gitignore
+├── change_log.txt
+├── START.bat
 ```
-
-## 🛠️ Build
-
-```bash
-npm run build        # package Electron app
-```
-
-## 📝 Changelog
-
-See [change_log.txt](change_log.txt) for version history.
 
 ## 📄 License
 
-MIT — see [LICENSE](LICENSE).
+© 2026 Shlok Chandak ([@IamSRC12](https://github.com/IamSRC12)). All rights reserved.
+This repository is public for portfolio and reference purposes.
 
 ---
 
-Built by [@IamSRC12](https://github.com/IamSRC12) • Part of the AI & Creative Tools collection.
+<p align="center">Built by <a href="https://github.com/IamSRC12">@IamSRC12</a></p>
